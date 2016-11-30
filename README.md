@@ -1,3 +1,5 @@
+![angular2](public/ang.png)
+
 # ng-book 2: Routing - Music
 
 ## Quick start
