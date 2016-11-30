@@ -14,3 +14,6 @@ npm run go
 
 Then visit [http://localhost:8080](http://localhost:8080) in your browser. 
 
+
+## Demo
+![pic](public/demo.png)
