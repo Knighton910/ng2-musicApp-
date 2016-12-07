@@ -16,8 +16,8 @@ import {SpotifyService} from 'services/SpotifyService';
 @Component({
   selector: 'search',
   template: `
-  <h1>Search</h1>
 
+  <h1>🎼 </h1>
   <p>
     <input type="text" #newquery
       [value]="query"
@@ -25,13 +25,15 @@ import {SpotifyService} from 'services/SpotifyService';
     <button (click)="submit(newquery.value)">Search</button>
   </p>
 
+<br>
+
   <div *ngIf="results">
     <div *ngIf="!results.length">
       No tracks were found with the term '{{ query }}'
     </div>
 
     <div *ngIf="results.length">
-      <h1>Results</h1>
+      <h4>✨  Search results ✨ </h4>
 
       <div class="row">
         <div class="col-sm-6 col-md-4" *ngFor="let t of results">

@@ -112,7 +112,7 @@ input,
 optgroup,
 select,
 textarea {
-  color: inherit;
+  color: black;
   font: inherit;
   margin: 0; }
 
@@ -1058,8 +1058,8 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42857;
-  color: #333333;
-  background-color: #fff; }
+  color: #FFFFFF;
+  background-color: FFFF00; }
 
 input,
 button,
@@ -1159,7 +1159,7 @@ h1, h2, h3, h4, h5, h6,
   .h6 .small {
     font-weight: normal;
     line-height: 1;
-    color: #777777; }
+    color: #FF4C4C; }
 
 h1, .h1,
 h2, .h2,
@@ -1257,7 +1257,7 @@ mark,
   text-transform: capitalize; }
 
 .text-muted {
-  color: #777777; }
+  color: #FF4C4C; }
 
 .text-primary {
   color: #337ab7; }
@@ -1396,7 +1396,7 @@ dd {
 abbr[title],
 abbr[data-original-title] {
   cursor: help;
-  border-bottom: 1px dotted #777777; }
+  border-bottom: 1px dotted #329932; }
 
 .initialism {
   font-size: 90%; }
@@ -1416,7 +1416,7 @@ blockquote {
     display: block;
     font-size: 80%;
     line-height: 1.42857;
-    color: #777777; }
+    color: #FF4C4C; }
     blockquote footer:before,
     blockquote small:before,
     blockquote .small:before {
@@ -2025,7 +2025,7 @@ table {
 caption {
   padding-top: 8px;
   padding-bottom: 8px;
-  color: #777777;
+  color: #329932;
   text-align: left; }
 
 th {
@@ -3084,7 +3084,7 @@ fieldset[disabled] a.btn {
   .btn-link[disabled]:hover, .btn-link[disabled]:focus,
   fieldset[disabled] .btn-link:hover,
   fieldset[disabled] .btn-link:focus {
-    color: #777777;
+    color: #FF4C4C;
     text-decoration: none; }
 
 .btn-lg, .btn-group-lg > .btn {
@@ -3214,7 +3214,7 @@ tbody.collapse.in {
   background-color: #337ab7; }
 
 .dropdown-menu > .disabled > a, .dropdown-menu > .disabled > a:hover, .dropdown-menu > .disabled > a:focus {
-  color: #777777; }
+  color: #329932; }
 
 .dropdown-menu > .disabled > a:hover, .dropdown-menu > .disabled > a:focus {
   text-decoration: none;
@@ -3242,7 +3242,7 @@ tbody.collapse.in {
   padding: 3px 20px;
   font-size: 12px;
   line-height: 1.42857;
-  color: #777777;
+  color: #FF4C4C;
   white-space: nowrap; }
 
 .dropdown-backdrop {
@@ -3567,9 +3567,9 @@ tbody.collapse.in {
         text-decoration: none;
         background-color: #eeeeee; }
     .nav > li.disabled > a {
-      color: #777777; }
+      color: #FF4C4C; }
       .nav > li.disabled > a:hover, .nav > li.disabled > a:focus {
-        color: #777777;
+        color: #FF4C4C;
         text-decoration: none;
         background-color: transparent;
         cursor: not-allowed; }
@@ -4079,7 +4079,7 @@ tbody.collapse.in {
       padding: 0 5px;
       color: #ccc; }
   .breadcrumb > .active {
-    color: #777777; }
+    color: #329932; }
 
 .pagination {
   display: inline-block;
@@ -4130,7 +4130,7 @@ tbody.collapse.in {
   .pagination > .disabled > a,
   .pagination > .disabled > a:hover,
   .pagination > .disabled > a:focus {
-    color: #777777;
+    color: #329932;
     background-color: #fff;
     border-color: #ddd;
     cursor: not-allowed; }
@@ -4200,7 +4200,7 @@ tbody.collapse.in {
   .pager .disabled > a:hover,
   .pager .disabled > a:focus,
   .pager .disabled > span {
-    color: #777777;
+    color: #FF4C4C;
     background-color: #fff;
     cursor: not-allowed; }
 
@@ -4227,7 +4227,7 @@ a.label:hover, a.label:focus {
   cursor: pointer; }
 
 .label-default {
-  background-color: #777777; }
+  background-color: #FF4C4C; }
   .label-default[href]:hover, .label-default[href]:focus {
     background-color: #5e5e5e; }
 
@@ -4267,7 +4267,7 @@ a.label:hover, a.label:focus {
   vertical-align: middle;
   white-space: nowrap;
   text-align: center;
-  background-color: #777777;
+  background-color: #FF4C4C;
   border-radius: 10px; }
   .badge:empty {
     display: none; }
@@ -4576,12 +4576,12 @@ button.list-group-item {
 
 .list-group-item.disabled, .list-group-item.disabled:hover, .list-group-item.disabled:focus {
   background-color: #eeeeee;
-  color: #777777;
+  color: #FF4C4C;
   cursor: not-allowed; }
   .list-group-item.disabled .list-group-item-heading, .list-group-item.disabled:hover .list-group-item-heading, .list-group-item.disabled:focus .list-group-item-heading {
     color: inherit; }
   .list-group-item.disabled .list-group-item-text, .list-group-item.disabled:hover .list-group-item-text, .list-group-item.disabled:focus .list-group-item-text {
-    color: #777777; }
+    color: #FF4C4C; }
 
 .list-group-item.active, .list-group-item.active:hover, .list-group-item.active:focus {
   z-index: 2;
@@ -5822,19 +5822,19 @@ button.close {
     display: none !important; } }
 
 body {
-  background-color: #E4E4E4;
+  background-color: #2D2D2D;
   font-family: "San Francisco", "Helvetica Neue", Helvetica,Arial,sans-serif; }
 
 .page-header {
   padding-top: 10px;
   padding-bottom: 20px;
   margin-top: 0px;
-  background-color: white; }
+  background-color: #0092f3; }
 
 .caption h3 {
   margin: 3px 0px;
   font-size: 13px;
-  color: #A7A7A7;
+  color: #E7E719;
   display: inline; }
 
 .caption p {
@@ -5850,7 +5850,7 @@ body {
 
 .attribution h4 {
   display: inline;
-  color: #525252;
+  color: #E7E719;
   margin-left: 4px;
   font-size: 14px; }
 
@@ -5937,4 +5937,3 @@ img.img-circle {
   font-family: "San Francisco";
   font-weight: bold;
   src: url("//applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-bold-webfont.woff2"); }
-
