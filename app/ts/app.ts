@@ -26,6 +26,7 @@ import {SearchComponent} from 'components/SearchComponent';
 import {ArtistComponent} from 'components/ArtistComponent';
 import {TrackComponent} from 'components/TrackComponent';
 import {AlbumComponent} from 'components/AlbumComponent';
+import {AboutComponent} from 'components/AboutComponent';
 
 /*
  * Services
@@ -40,6 +41,8 @@ require('css/styles.css');
 @Component({
   selector: 'router-app',
   template: `
+
+  <a [routerLink]="['about']">About</a>
   <router-outlet></router-outlet>
   `
 })
@@ -53,6 +56,7 @@ const routes: Routes = [
   { path: 'artists/:id', component: ArtistComponent },
   { path: 'tracks/:id', component: TrackComponent },
   { path: 'albums/:id', component: AlbumComponent },
+  { path: 'about', component: AboutComponent }
 ];
 
 @NgModule({
@@ -61,7 +65,8 @@ const routes: Routes = [
     SearchComponent,
     ArtistComponent,
     TrackComponent,
-    AlbumComponent
+    AlbumComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
