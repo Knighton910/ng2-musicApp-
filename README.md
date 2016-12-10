@@ -24,4 +24,8 @@ I'm gonna add an about page & update the style to a
 sleek dark background & color buttons
 and update the navbar color & style.
 
+:progress - 
+Still need color buttons & add a colored button
+leading back to home-page on the about page.
+
 getbootstrap.com
