@@ -5,14 +5,14 @@
 ## Quick start
 
 ```bash
-# install 
+# install
 npm install
 
 # run
 npm run go
 ```
 
-Then visit [http://localhost:8080](http://localhost:8080) in your browser. 
+Then visit [http://localhost:8080](http://localhost:8080) in your browser.
 
 
 ## Demo
@@ -24,8 +24,10 @@ I'm gonna add an about page & update the style to a
 sleek dark background & color buttons
 and update the navbar color & style.
 
-:progress - 
+:progress -
 Still need color buttons & add a colored button
 leading back to home-page on the about page.
 
 getbootstrap.com
+
+![:0:](:radio_button: click for next page)
