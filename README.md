@@ -30,4 +30,4 @@ leading back to home-page on the about page.
 
 getbootstrap.com
 
-[:radio_button:](bing.com)
+[:radio_button:](http://www.bing.com)
